@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T16:52:57.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="Eq5HCbFLjhcjzVCnDICy" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T16:54:54.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="rp0cFgd43wjJjDXkY1My" version="23.1.1" type="github">
   <diagram name="Page-1" id="2Z_bUNiFRxrvAi2RPvs9">
-    <mxGraphModel dx="3141" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2291" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NZBmyqosyH3Fm5MMIALQ-1" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-eb4be076-7fff-5ffd-de3d-166df8ae6f57&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;border:none;display:inline-block;overflow:hidden;width:602px;height:336px;&quot;&gt;&lt;img src=&quot;https://lh7-us.googleusercontent.com/VP4M3Hi1s6kcOgq6uoAI9A1riY5bVIjTYJq4XAkg1uNT6MSxGy4SmxX9o9PCMT8rErHRWBTeON-mXGxCeCrcoic1W1yH7DrjBUJ7i5KUu-tZbRa2CgNP4hKnTWltC2we0MYhHQoI4vn-CHy2yLpmqzY&quot; width=&quot;602&quot; height=&quot;336&quot; style=&quot;margin-left:0px;margin-top:0px;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1180" y="570" width="630" height="360" as="geometry" />
-        </mxCell>
         <mxCell id="NZBmyqosyH3Fm5MMIALQ-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NZBmyqosyH3Fm5MMIALQ-3" target="NZBmyqosyH3Fm5MMIALQ-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
