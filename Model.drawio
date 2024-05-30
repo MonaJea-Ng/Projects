@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T23:27:04.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" version="24.4.9" etag="JRkYHWuPoANxl4zUmkTa" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T23:46:18.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="H13mwA1Lz6Ma9UI5SeYP" version="24.4.9" type="github">
   <diagram name="Page-1" id="WKiQ4ZJjj3jKp8pEJqKA">
-    <mxGraphModel>
+    <mxGraphModel dx="1121" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-2" value="Input" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-5" target="e_V1dfJK_9WuO3395_Ni-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-5" value="Feature Extraction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="285" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-2" target="e_V1dfJK_9WuO3395_Ni-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="340" as="sourcePoint" />
+            <mxPoint x="270" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="315.2222222222222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="180" width="275" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-10" value="Ingredient Pairing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-11" value="Ingredient Substitution" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="568" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-12" value="Dietary Restriction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="568" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-13" value="Calorie Count" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-14" value="Ingredient Measurement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="438" y="340" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-15" value="Regression Model" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="410" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-18" target="e_V1dfJK_9WuO3395_Ni-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-18" value="Dataset" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="506.5" y="30" width="112" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
