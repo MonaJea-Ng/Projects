@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T02:45:24.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="8FrIo80C7GiBt6TpM3y7" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T03:08:19.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="mKmQGhX9wzSSVEkBARN-" version="24.4.9" type="github">
   <diagram name="Page-1" id="WKiQ4ZJjj3jKp8pEJqKA">
-    <mxGraphModel dx="1411" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1162" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,10 +19,8 @@
             <mxPoint x="270" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_V1dfJK_9WuO3395_Ni-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-7" target="e_V1dfJK_9WuO3395_Ni-22">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="247.44444444444446" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-7" target="e_V1dfJK_9WuO3395_Ni-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_V1dfJK_9WuO3395_Ni-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="180" width="275" height="270" as="geometry" />
@@ -51,28 +49,37 @@
         <mxCell id="e_V1dfJK_9WuO3395_Ni-18" value="Dataset" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="506.5" y="30" width="112" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e_V1dfJK_9WuO3395_Ni-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-22" target="e_V1dfJK_9WuO3395_Ni-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e_V1dfJK_9WuO3395_Ni-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-22" target="e_V1dfJK_9WuO3395_Ni-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_V1dfJK_9WuO3395_Ni-22" value="MCTS with Heuristic Function Evaluator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="791" y="217" width="130" height="60" as="geometry" />
+          <mxGeometry x="960" y="217.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e_V1dfJK_9WuO3395_Ni-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-23" target="e_V1dfJK_9WuO3395_Ni-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_V1dfJK_9WuO3395_Ni-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="379.66666666666663" as="targetPoint" />
+            <mxPoint x="1179" y="381.16666666666663" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e_V1dfJK_9WuO3395_Ni-23" value="Large Language Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="791" y="350" width="130" height="60" as="geometry" />
+          <mxGeometry x="960" y="351.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e_V1dfJK_9WuO3395_Ni-28" value="Output" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="350" width="130" height="60" as="geometry" />
+          <mxGeometry x="1179" y="351.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-29" target="e_V1dfJK_9WuO3395_Ni-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-29" value="Graph-based Neural Network" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="217.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_V1dfJK_9WuO3395_Ni-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_V1dfJK_9WuO3395_Ni-22" target="e_V1dfJK_9WuO3395_Ni-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="257" as="sourcePoint" />
+            <mxPoint x="970" y="257" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
