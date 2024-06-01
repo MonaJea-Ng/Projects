@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-01T15:57:07.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="421AcIjkiYoJs_cD2IWx" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-01T16:04:04.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="JDVcPo3Zm335j3btGDzT" version="24.4.13" type="github">
   <diagram name="Page-1" id="ej0RK8q4Kem6TgFinepa">
-    <mxGraphModel dx="1261" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="480" dy="273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
           <mxGeometry x="260" y="285" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QXm4yxE0TvCzbE2h7ek6-17" value="&amp;lt;calorieCount&amp;gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="80" width="120" height="80" as="geometry" />
+          <mxGeometry x="310" y="80" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QXm4yxE0TvCzbE2h7ek6-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QXm4yxE0TvCzbE2h7ek6-1" target="QXm4yxE0TvCzbE2h7ek6-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -64,11 +64,11 @@
             <mxPoint x="260" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QXm4yxE0TvCzbE2h7ek6-19" value="has a calorie of" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=70;" vertex="1" parent="1">
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-19" value="has a calorie of" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=60;" vertex="1" parent="1">
           <mxGeometry x="365" y="200" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QXm4yxE0TvCzbE2h7ek6-20" value="&amp;lt;measurement_&lt;div&gt;perQuantity&amp;gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="110" width="120" height="80" as="geometry" />
+          <mxGeometry x="450" y="86" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QXm4yxE0TvCzbE2h7ek6-21" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QXm4yxE0TvCzbE2h7ek6-1" target="QXm4yxE0TvCzbE2h7ek6-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -76,8 +76,8 @@
             <mxPoint x="500" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QXm4yxE0TvCzbE2h7ek6-22" value="has serving of" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-55;" vertex="1" parent="1">
-          <mxGeometry x="438" y="216" width="100" height="30" as="geometry" />
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-22" value="has serving of" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-70;" vertex="1" parent="1">
+          <mxGeometry x="428" y="200" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QXm4yxE0TvCzbE2h7ek6-23" value="&amp;lt;cookingMethod1&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="166" width="120" height="80" as="geometry" />
@@ -156,6 +156,48 @@
         </mxCell>
         <mxCell id="QXm4yxE0TvCzbE2h7ek6-47" value="is a/an" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=20;" vertex="1" parent="1">
           <mxGeometry x="535" y="346" width="110" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-48" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="480" as="sourcePoint" />
+            <mxPoint x="130" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-49" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="355" as="sourcePoint" />
+            <mxPoint x="120" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-50" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="sourcePoint" />
+            <mxPoint x="190" y="166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-51" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="30" as="sourcePoint" />
+            <mxPoint x="350" y="86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-52" value="" style="endArrow=none;html=1;rounded=0;exitX=0.731;exitY=0.059;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QXm4yxE0TvCzbE2h7ek6-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="60" as="sourcePoint" />
+            <mxPoint x="600" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-53" value="" style="endArrow=none;html=1;rounded=0;exitX=0.731;exitY=0.059;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="QXm4yxE0TvCzbE2h7ek6-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="678" y="166" as="sourcePoint" />
+            <mxPoint x="720" y="101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-54" value="&amp;lt;cookingTime&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QXm4yxE0TvCzbE2h7ek6-55" value="can be cooked by" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-60;" vertex="1" parent="1">
+          <mxGeometry x="640" y="110" width="100" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
