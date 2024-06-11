@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T12:04:18.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="w0ZpLZ_LfeV889522ndd" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T12:05:27.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="9RR38btslLgI0CYBGEyD" version="24.5.2" type="github">
   <diagram name="Page-1" id="KptSKPatJ4-d4UpOlwtu">
     <mxGraphModel dx="1315" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,11 +16,16 @@
         <mxCell id="jBCdN4Sig-oC-tn5H1Yf-7" value="Heater" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-8" value="Subtract current_Temp by 0.5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="545" width="120" height="60" as="geometry" />
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-11" target="jBCdN4Sig-oC-tn5H1Yf-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="330" />
+              <mxPoint x="265" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jBCdN4Sig-oC-tn5H1Yf-11" value="Controlled Environment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="580" y="100" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="jBCdN4Sig-oC-tn5H1Yf-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jBCdN4Sig-oC-tn5H1Yf-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -33,6 +38,15 @@
         </mxCell>
         <mxCell id="jBCdN4Sig-oC-tn5H1Yf-28" value="Cooler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-7" target="jBCdN4Sig-oC-tn5H1Yf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.805;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-28" target="jBCdN4Sig-oC-tn5H1Yf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-35" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Current Temperature&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
