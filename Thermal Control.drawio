@@ -1,47 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T12:01:06.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="nat0Ghd2Aso_jAA8xZAS" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T12:04:18.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="w0ZpLZ_LfeV889522ndd" version="24.5.2" type="github">
   <diagram name="Page-1" id="KptSKPatJ4-d4UpOlwtu">
     <mxGraphModel dx="1315" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-3" value="is current_Temp 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="290" width="130" height="130" as="geometry" />
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-5" target="jBCdN4Sig-oC-tn5H1Yf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-5" target="jBCdN4Sig-oC-tn5H1Yf-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jBCdN4Sig-oC-tn5H1Yf-5" value="Fuzzy Logic Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="205" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-7" value="Don&#39;t change current_Temp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="375" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="300" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-7" value="Heater" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jBCdN4Sig-oC-tn5H1Yf-8" value="Subtract current_Temp by 0.5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="545" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-9" value="is current_Temp &amp;gt;=1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="204" y="510" width="130" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-10" target="jBCdN4Sig-oC-tn5H1Yf-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="360" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="600" y="712" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-10" value="Add current_Temp by 0.5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="209" y="682" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-11" value="current_Temp = environment_Temp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="239" width="120" height="60" as="geometry" />
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-11" value="Controlled Environment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jBCdN4Sig-oC-tn5H1Yf-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="jBCdN4Sig-oC-tn5H1Yf-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,32 +28,11 @@
             <mxPoint x="200" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-3" target="jBCdN4Sig-oC-tn5H1Yf-9">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="309" as="sourcePoint" />
-            <mxPoint x="280" y="350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-9" target="jBCdN4Sig-oC-tn5H1Yf-10">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="480" as="sourcePoint" />
-            <mxPoint x="279" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-9" target="jBCdN4Sig-oC-tn5H1Yf-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="279" y="650" as="sourcePoint" />
-            <mxPoint x="279" y="692" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jBCdN4Sig-oC-tn5H1Yf-3" target="jBCdN4Sig-oC-tn5H1Yf-7">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="344" y="585" as="sourcePoint" />
-            <mxPoint x="412" y="585" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jBCdN4Sig-oC-tn5H1Yf-27" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Target Temperature&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="150" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jBCdN4Sig-oC-tn5H1Yf-28" value="Cooler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
